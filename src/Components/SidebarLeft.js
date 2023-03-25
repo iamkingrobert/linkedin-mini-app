@@ -21,11 +21,11 @@ function SidebarLeft() {
     </div>
     <div className='sidebar__stats'> 
     <div className='sidebar__stat'>
-    <p>Who Viewed You</p>
+    <p>Who's Viewed You</p>
     <p className='sidebar__statNumber'>700</p>
     </div>
     <div className='sidebar__stat'>
-    <p>Post Views</p>
+    <p>Posts Impressions</p>
     <p className='sidebar__statNumber'>2,330</p>
      </div>
     </div>
