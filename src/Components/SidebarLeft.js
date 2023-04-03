@@ -3,10 +3,13 @@ import React from 'react'
 import './SidebarLeft.css'
 
 const recentItem = (topic) => {
+  return (
     <div className='sidebar__recentItem'>
     <span className='sidebar__hash'>#</span>
     <p>{topic}</p>
     </div>
+  )
+   
 };
 
 function SidebarLeft() {
@@ -32,6 +35,7 @@ function SidebarLeft() {
     <div className='sidebar__bottom'>
         <p>Recent</p>
         {recentItem('Software')}
+        {recentItem('ReactJS')}
         {recentItem('ReactNative')}
         {recentItem('Tailwindcss')}
         {recentItem('Developer')}
