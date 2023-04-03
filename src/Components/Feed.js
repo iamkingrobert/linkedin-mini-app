@@ -27,10 +27,11 @@ function Feed() {
     ))
 
   }, [])
-
+// Preventing Auto Reload App On Submit
   const sendPost = e => {
     e.preventDefault();
 
+    
     db.collection('posts').add({
       name: "King Robert",
       description: "Junior Frontend Software Developer",

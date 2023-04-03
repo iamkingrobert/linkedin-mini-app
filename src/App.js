@@ -8,15 +8,15 @@ import Header from './Header';
 function App() {
   return (
     <div className="app">
+    {/* App Header Component */}
      <Header/>
-     
      {/* App Body */}
      <div className='app__body'>
-     {/* Left Sidebar */}
+     {/* Left Sidebar Component */}
      <SidebarLeft/>
-     {/* Feed */}
+     {/* Feed  Component */}
      <Feed/>
-     {/* Right Widget */}
+     {/* Right Widget Component */}
      <WidgetRight/>
 
 
